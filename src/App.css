@@ -1,0 +1,37 @@
+.fullpage{
+    width:100vw;
+
+}
+.main{
+    width:100vw;
+    /* height:2500px; */
+    display:flex;    
+}
+
+.main_left{
+    width:20%;
+    /* border-right:2px solid grey */
+}
+
+.main_right{
+    width:80%;
+    height:700px;
+    overflow-y: scroll;
+}
+
+.main_right::-webkit-scrollbar-track
+{
+    background-color: #F5F5F5;
+}
+
+.main_right::-webkit-scrollbar
+{
+    width: 6px;
+    background-color: #F5F5F5;
+}
+
+.main_right::-webkit-scrollbar-thumb
+{
+    background-color: rgb(207, 68, 68);
+    border: 2px solid rgb(197, 46, 46);
+}

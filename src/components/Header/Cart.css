@@ -1,0 +1,95 @@
+.cart{
+    width:100%;
+    padding:30px 30px;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart h1{
+    text-align: center;
+    padding:0px 0px 20px 0px;
+}
+.cart p{
+    padding:30px;
+}
+
+.cart button{
+    width:120px;
+    height:40px;
+    padding:10px;
+    font-weight: 600;
+    font-size: 18px;
+
+    background:rgb(240, 100, 100);
+    color:white;
+    outline:none;
+    border:none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.cartlisthead{
+    width:100%;
+}
+.cartlist{
+    width:100%;
+    margin:10px 0px;
+    background:rgb(245, 245, 245);
+    display:flex;
+    justify-content: center;
+}
+.cartlist:hover{
+    /* cursor:pointer; */
+    background: rgba(0, 0, 0, 0.103);
+}
+.cartlist img{
+    width:80px;
+    height:80px;
+    /* background:red; */
+    object-fit: contain;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.p2{
+    width:10%;
+    height:70px;
+    /* background:rgb(255, 0, 157); */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p1{
+    width:70%;
+    height:70px;
+    text-indent: 40px;
+    /* background:rgb(0, 255, 115); */
+    display:flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.p1:hover{
+text-decoration: underline;
+}
+
+.cartlist button{
+    width:60px;
+    height:40px;
+    margin:14px;
+    font-size: 18px;
+    background:none;
+    color:rgba(219, 94, 94, 0.493);
+
+    outline:none;
+    border:none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.cartlist button:hover{
+    color:rgb(219, 94, 94);
+}

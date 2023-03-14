@@ -1,0 +1,68 @@
+.todaydeal{
+    width:100%;
+    height:450px;
+    padding:30px;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.todaydeal_product{
+    width:100%;
+    height:400px;
+
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.todaydeal_product div:nth-child(1){
+    width:60%;
+    height:100%;
+    overflow: hidden;
+    background:#FF97B6;;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todaydeal_product img{
+    width:120%;
+    /* height:100%; */
+}
+.todaydeal_product div:nth-child(2){
+    width:30%;
+    height:100%;
+    overflow: hidden;
+    background: #FF97B6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.todaydeal_product p:nth-child(1){
+    font-size:25px;
+    font-weight:900;
+    color:white; 
+    padding:10px 0px;
+}
+.todaydeal_product p:nth-child(2){
+    font-size:14px;
+    color:rgb(78, 77, 77); 
+    padding:10px 0px;
+}
+.todaydeal_product p:nth-child(3){
+    padding:30px 0px;
+}
+.todaydeal_product span{
+    padding:15px;
+    color:rgb(219, 217, 217);
+    background: rgba(48, 47, 47, 0.726);
+}
+
+.todaydealButton{
+    cursor:pointer;
+}
+
+.todaydealButton:hover{
+    background:rgba(255, 255, 255, 0.829);
+    color:rgb(46, 45, 45);
+}

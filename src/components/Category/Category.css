@@ -1,0 +1,122 @@
+.category{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.category_collections{
+    width:90%;
+    margin:27px 0px;
+
+    border-radius:10px;
+    border:2px solid rgb(255, 255, 255);
+    
+    font-size: 18px; 
+    overflow: hidden;  
+}
+.category_collections h3{
+    height:50px;
+
+    color:rgba(247, 245, 245, 0.993);
+    background:rgb(226, 76, 76);
+    border-bottom:2px solid rgb(255, 255, 255);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.category_collections p{
+    height:50px;
+    text-indent: 30px;
+    font-size:16px;
+
+    background:rgba(128, 128, 128, 0.068);
+    border-bottom:2px solid rgb(255, 255, 255);
+
+    display:flex;
+    align-items: center;
+    cursor: pointer;
+}
+.category_collections p:hover{
+    background:rgba(226, 84, 84, 0.486);
+    color:white;    
+}
+
+/* .category_bestsellers{
+    width:90%;
+    margin:30px 0px;
+
+    border-radius:10px;
+    border:2px solid rgb(255, 255, 255);
+    
+    font-size: 15px; 
+    overflow: hidden;  
+}
+
+.category_bestsellers h3{
+    height:50px;
+
+    color:rgba(247, 245, 245, 0.993);
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.bestsellers_list{
+    padding:10px 0px;    
+    background:rgba(128, 128, 128, 0.068);
+    color:rgb(226, 76, 76);
+    border-bottom:2px solid rgb(255, 255, 255);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.bestseller_item{
+    width:100%;
+    height:300px;
+    border-top: 5px solid rgb(255, 255, 255);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bestseller_image{
+    width:80%;
+    height:170px;
+    margin-bottom: 2px;
+    box-shadow: 0px 3px 4px rgb(192, 191, 191);
+
+    overflow:hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bestseller_item img{
+    width:100%;
+    height:auto;
+}
+
+.bestseller_button{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bestseller_button button{
+    padding:7px;
+    background: #E86059;
+    color:white;
+    font-weight: 700;
+    border-radius: 10px;
+
+    border:none;
+    outline:none;
+    cursor: pointer;
+}
+.bestseller_item p{
+    padding:5px 10px;
+} */

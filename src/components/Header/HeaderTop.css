@@ -1,0 +1,26 @@
+.header_top{
+    width:100%;
+    height:40px;
+    padding:0px 30px;
+
+    background: rgb(32, 32, 32);
+    color:white;
+    font-size: 14px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.header_top_panel{
+    width:300px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+
+    cursor:pointer;
+}
+
+.header_top_panel p:hover{
+    color:rgb(203, 255, 160)
+}
